@@ -6,3 +6,26 @@ html {
 *, *::before, *::after {
   box-sizing: inherit
 }
+
+body {
+}
+
+#canvas {
+  height: 1500px;
+  background-image: url("https://i.pinimg.com/originals/42/c8/b3/42c8b3b87fb239f415ff5dd68f7f1af0.jpg")
+}
+
+.Logo {
+  height: 225px;
+  width: 900px;
+  border: black solid 4px;
+  background-color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.backgroundpic {
+  height: 0px;
+  width: 0px;
+}
