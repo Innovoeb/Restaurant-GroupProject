@@ -91,3 +91,8 @@ button {
   top: 260px;
   background-color: black;
 }
+
+.menupics img {
+  width: 200px;
+  height: 150px;
+}
