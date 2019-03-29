@@ -11,7 +11,7 @@ body {
 }
 /* canvas */
 #canvas {
-  height: 3000px;
+  height: 2500px;
   background-image: url("https://i.pinimg.com/originals/42/c8/b3/42c8b3b87fb239f415ff5dd68f7f1af0.jpg");
 }
 
@@ -30,17 +30,19 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     position: relative;
-    left: 443px;
-    top: -43px;
+    top: -100px;
+    left: 30px;
     line-height: 0.5;
 
 }
 
 .socialmedia {
   height: 100px;
-  width: 100px;
+  width: 300px;
+  border: 1px solid black;
   position: relative;
-  left: 1700px;
+  left: 1500px;
+  top: 20px;
 }
 
 .logopic {
@@ -48,6 +50,7 @@ body {
     width: 895px;
     border: 1px solid black;
     position: relative;
+    top: -70px;
     left: 447px;
     background-image: url("https://untourfoodtours.com/wp-content/uploads/2013/04/kidsbar.jpg");
     background-repeat: no-repeat;
@@ -59,13 +62,32 @@ body {
 .navbar {
   height: 50px;
   width: 1000px;
-  border: 1px solid ;
+  display: flex;
+  justify-content: space-between;
   position: relative;
-  left: 482px;
+  left: 400px;
+  top: 330px;
 }
 
 button {
   font-size: 24px;
   background-color: rgb(144, 248, 23);
-  border: 1px solid;
+}
+
+.body {
+  height: 1100px;
+  width: 1500px;
+  border: solid 1px black;
+  position: relative;
+  top: 100px;
+  left: 200px;
+}
+
+.footer {
+  height: 500px;
+  width: 1900px;
+  border: solid 1px black;
+  position: relative;
+  top: 260px;
+  background-color: black;
 }
