@@ -81,6 +81,46 @@ button {
   position: relative;
   top: 100px;
   left: 200px;
+  background-color: white;
+}
+
+.home {
+  display: flex;
+  justify-content: space-around;
+}
+
+.home .homeContent {
+  width: 400px;
+  height: 600px;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.homeContent h3, .homeContent h4, .homeContent h6, .aboutus h4 {
+  align-self: center;
+}
+
+.aboutUs, .news {
+  display: flex;
+  flex-direction: column;
+}
+
+.special {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#cookiepic, #aboutuspic {
+  width: 75%;
+}
+
+#cookiepic img, #aboutuspic img {
+  width: 100%
+}
+
+#aboutuspic {
+  align-self: center;
 }
 
 .footer {
@@ -92,6 +132,15 @@ button {
   background-color: transparent;
 }
 
+.bodyContent {
+  height: 0;
+  overflow: hidden;
+  transition: height 1s;
+}
+
+.show {
+  height: 1100px;
+}
 .menupics img {
   width: 370px;
   height: 320px;
