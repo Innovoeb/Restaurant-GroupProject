@@ -83,6 +83,10 @@ button {
   left: 200px;
 }
 
+.home, .menu, .reservations, .location {
+  padding-left: 10px;
+}
+
 .footer {
   height: 500px;
   width: 1900px;
@@ -90,4 +94,14 @@ button {
   position: relative;
   top: 260px;
   background-color: black;
+}
+
+.bodyContent {
+  height: 0;
+  overflow: hidden;
+  transition: height 1s;
+}
+
+.show {
+  height: 1100px;
 }
