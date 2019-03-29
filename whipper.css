@@ -84,11 +84,6 @@ button {
   background-color: white;
 }
 
-.bodyContent {
-  padding: 10px;
-  margin: 10px;
-}
-
 .home {
   display: flex;
   justify-content: space-around;
@@ -96,7 +91,7 @@ button {
 
 .home .homeContent {
   width: 400px;
-  height: 400px;
+  height: 600px;
   border: 1px solid black;
   padding: 15px;
 }
@@ -105,7 +100,7 @@ button {
   align-self: center;
 }
 
-.aboutus, .news {
+.aboutUs, .news {
   display: flex;
   flex-direction: column;
 }
@@ -116,12 +111,16 @@ button {
   align-items: center;
 }
 
-#cookiepic {
+#cookiepic, #aboutuspic {
   width: 75%;
 }
 
-#cookiepic img {
+#cookiepic img, #aboutuspic img {
   width: 100%
+}
+
+#aboutuspic {
+  align-self: center;
 }
 
 .footer {
