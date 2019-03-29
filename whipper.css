@@ -29,3 +29,8 @@ body {
   height: 0px;
   width: 0px;
 }
+
+.menupics img {
+  width: 200px;
+  height: 150px;
+}
