@@ -7,17 +7,19 @@ html {
   box-sizing: inherit
 }
 
+/* background img */
 body {
   background-image: url("https://i.pinimg.com/originals/42/c8/b3/42c8b3b87fb239f415ff5dd68f7f1af0.jpg");
-
 }
+
+
 /* canvas */
 #canvas {
   height: 2500px;
 }
 
 
-/* logo */
+/* WhipperSnapper title */
 .Logo {
     height: 178px;
     width: 700px;
@@ -31,8 +33,6 @@ body {
     top: -100px;
     left: 30px;
     line-height: 0.5;
-
-
 }
 
 /* social media div */
@@ -50,12 +50,13 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+
 /* social media icons */
 .socialmedia i {
   color: black;
 }
 
-/* logo div */
+/* kids at bar div */
 .logopic {
     height: 302px;
     width: 895px;
@@ -84,15 +85,16 @@ body {
 }
 
 button {
-  font-size: 24px;
+  font-size: 27px;
   background-color: rgb(144, 248, 23);
   cursor: pointer;
   border: black solid 2px;
   width: 300px;
   font-family: "Apple Chancery";
+  outline: none;
 }
 
-/* body div */
+/* body/content div */
 .body {
   height: 1100px;
   width: 1500px;
@@ -102,7 +104,7 @@ button {
   left: 200px;
   background-color: white;
 }
-
+/* home button content */
 .home {
   display: flex;
   justify-content: space-around;
@@ -124,7 +126,6 @@ button {
   display: flex;
   flex-direction: column;
 }
-
 
 
 .special {
@@ -170,7 +171,7 @@ button {
   margin-right: 3px;
   border: 10px solid rgb(94, 210, 250);
 }
-
+/* footer text div */
 .try {
   text-align: center;
   font-size: 50px;
@@ -222,6 +223,7 @@ abbr {
   text-decoration: none;
 }
 
+/* google map */
 #map {
   width: 400px;
   height: 400px;
