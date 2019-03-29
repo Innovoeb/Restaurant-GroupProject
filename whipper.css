@@ -94,7 +94,6 @@ button {
   position: relative;
   top: 100px;
   left: 200px;
-  background-color: white;
 }
 
 .home {
@@ -149,7 +148,7 @@ button {
 .bodyContent {
   height: 0;
   overflow: hidden;
-  transition: height 1s;
+  transition: height 1s, background-color 1s;
 }
 
 .show {
@@ -213,4 +212,28 @@ abbr {
 #map {
   width: 400px;
   height: 400px;
+}
+
+.home.bodyContent {
+  background-color: rgba(252, 251, 125, 0.9);
+}
+
+.homeContent {
+  background-color: white;
+}
+
+.menu.bodyContent {
+  background-color: rgba(217, 250, 138, 0.9)
+}
+
+div.menu-items {
+  background-color: white;
+}
+
+.reservations.bodyContent {
+  background-color: rgba(230, 111, 165, 0.9);
+}
+
+.location.bodyContent {
+  background-color: rgba(94, 210, 250, 0.9);
 }

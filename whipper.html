@@ -105,6 +105,51 @@
 
       <div class="reservations bodyContent">
         <h3>Reservations</h3>
+        <form id="reservationsform">
+          <label for="parentsname">Parent's Name</label><br>
+          <input type="text" name="parentsname" id="parentsname"/><br>
+          <label for="phonenumber">Phone Number</label><br>
+          <input type="tel" name="phonenumber" id="phonenumber"/><br>
+          <label for="numberofchildren">Number of Children</label><br>
+          <select name="numberofchildren">
+            <option value="" selected="selected" disabled>Choose a value</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5+">5+</option>
+          </select><br>
+          <label for="childrensnames">Children's Name(s)</label><br>
+          <input type="text" name=childrensnames id="childrensnames"/><br>
+          <label for="date">Date</label><br>
+          <input type="date" name="date" id="date"><br>
+          <label for="time">Time</label><br>
+          <select name="time">
+            <option value="" selected="selected" disabled>Choose a Time</option>
+            <option value="lunch">Weekday Lunch</option>
+            <option value="dinner">Weekday Dinner</option>
+            <option value="9am">Weekend 9am</option>
+            <option value="10am">Weekend 10am</option>
+            <option value="11am">Weekend 11am</option>
+            <option value="12pm">Weekend 12pm</option>
+            <option value="1pm">Weekend 1pm</option>
+            <option value="2pm">Weekend 2pm</option>
+            <option value="3pm">Weekend 3pm</option>
+            <option value="4pm">Weekend 4pm</option>
+            <option value="5pm">Weekend 5pm</option>
+            <option value="6pm">Weekend 6pm</option>
+            <option value="7pm">Weekend 7pm</option>
+          </select><br>
+          <label for="specialnotes">Special Notes</label><br>
+          <textarea id="specialnotes"></textarea><br>
+          <label for="seating">Seating Preference</label><br>
+          <select name="seating">
+            <option value="" selected="selected" disabled>Choose a Spot</option>
+            <option value="table">Table</option>
+            <option value="bar">Bar</option>
+          </select><br>
+          <button id="reservetable" type="submit">Reserve Table</button>
+        </form>
       </div>
 
       <div class="location bodyContent">
