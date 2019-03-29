@@ -9,6 +9,7 @@ html {
 
 body {
   background-image: url("https://i.pinimg.com/originals/42/c8/b3/42c8b3b87fb239f415ff5dd68f7f1af0.jpg");
+
 }
 /* canvas */
 #canvas {
@@ -21,8 +22,8 @@ body {
     height: 178px;
     width: 700px;
     border: black solid 5px;
-    background-color: green;
-    color: white;
+    background-color: rgb(144, 248, 23);
+    color: black;
     text-align: center;
     font-family: "Apple Chancery";
     font-size: 30px;
@@ -42,16 +43,16 @@ body {
   position: relative;
   left: 1500px;
   top: 20px;
-  background-color: green;
+  background-color: rgb(144, 248, 23);
   color: white;
   font-family: "Apple Chancery";
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
+/* social media icons */
 .socialmedia i {
-  color: white;
+  color: black;
 }
 
 /* logo div */
@@ -74,23 +75,28 @@ body {
   height: 50px;
   width: 1000px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   position: relative;
   left: 400px;
   top: 330px;
+  border: 5px solid black;
+  color: rgb(144, 248, 23);
 }
 
 button {
   font-size: 24px;
   background-color: rgb(144, 248, 23);
   cursor: pointer;
+  border: black solid 2px;
+  width: 300px;
+  font-family: "Apple Chancery";
 }
 
 /* body div */
 .body {
   height: 1100px;
   width: 1500px;
-  border: solid 1px black;
+  border: solid 5px black;
   position: relative;
   top: 100px;
   left: 200px;
@@ -104,9 +110,10 @@ button {
 
 .home .homeContent {
   width: 400px;
-  height: 600px;
+  height: 800px;
   border: 1px solid black;
   padding: 15px;
+  margin-top: 40px;
 }
 
 .homeContent h3, .homeContent h4, .homeContent h6, .aboutus h4 {
@@ -117,6 +124,8 @@ button {
   display: flex;
   flex-direction: column;
 }
+
+
 
 .special {
   display: flex;
@@ -140,7 +149,6 @@ button {
 .footer {
   height: 500px;
   width: 1900px;
-  border: solid 1px black;
   position: relative;
   top: 260px;
   background-color: transparent;
@@ -166,7 +174,13 @@ button {
 .try {
   text-align: center;
   font-size: 50px;
-  color: purple;
+  color: black;
+  background-color: rgb(144, 248, 23);
+  width: 1700px;
+  position: relative;
+  left: 98px;
+  border: solid black 5px;
+  font-family: "Apple Chancery";
 }
 
 .menu-items {
@@ -185,9 +199,7 @@ button {
   width: 200px;
 }
 
-.spicy {
 
-}
 
 .extra {
   width: 150px;
