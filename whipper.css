@@ -9,23 +9,85 @@ html {
 
 body {
 }
-
+/* canvas */
 #canvas {
-  height: 1500px;
-  background-image: url("https://i.pinimg.com/originals/42/c8/b3/42c8b3b87fb239f415ff5dd68f7f1af0.jpg")
+  height: 2500px;
+  background-image: url("https://i.pinimg.com/originals/42/c8/b3/42c8b3b87fb239f415ff5dd68f7f1af0.jpg");
 }
 
+
+/* logo */
 .Logo {
-  height: 225px;
-  width: 900px;
-  border: black solid 4px;
-  background-color: white;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
+    height: 178px;
+    width: 900px;
+    border: black solid 4px;
+    border-top-color: green;
+    border-bottom-color: green;
+    border-left-color: rgba(19, 200, 244);
+    border-right-color: rgba(212, 75, 140);
+    background-color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position: relative;
+    top: -100px;
+    left: 30px;
+    line-height: 0.5;
+
 }
 
-.backgroundpic {
-  height: 0px;
-  width: 0px;
+.socialmedia {
+  height: 100px;
+  width: 300px;
+  border: 1px solid black;
+  position: relative;
+  left: 1500px;
+  top: 20px;
+}
+
+.logopic {
+    height: 302px;
+    width: 895px;
+    border: 1px solid black;
+    position: relative;
+    top: -70px;
+    left: 447px;
+    background-image: url("https://untourfoodtours.com/wp-content/uploads/2013/04/kidsbar.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100% 25%;
+    border: 10px solid rgb(243, 48, 134);
+}
+
+.navbar {
+  height: 50px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 400px;
+  top: 330px;
+}
+
+button {
+  font-size: 24px;
+  background-color: rgb(144, 248, 23);
+}
+
+.body {
+  height: 1100px;
+  width: 1500px;
+  border: solid 1px black;
+  position: relative;
+  top: 100px;
+  left: 200px;
+}
+
+.footer {
+  height: 500px;
+  width: 1900px;
+  border: solid 1px black;
+  position: relative;
+  top: 260px;
+  background-color: black;
 }
