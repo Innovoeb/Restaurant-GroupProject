@@ -132,15 +132,4 @@ $(document).ready(function(){
 
     $('#desserts').html(dessertsStr)
 
-    //$.get("https://maps.googleapis.com/maps/api/js?key=AIzaSyAyesbQMyKVVbBgKVi2g6VX7mop2z96jBo&callback=initMap", function(data) {
-      //map = new google.maps.Map(document.getElementById('map'), {
-      //  center: {lat: , lng: },
-      //  zoom: 8
-    //  });
-  //  })
-
-
-
-
-
 })
