@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+    // home button shows on page-load
     $('.home').addClass('show');
 
     $(".navbar").on('click', 'button', function(){
@@ -23,21 +23,21 @@ $(document).ready(function(){
             }else {
               description = a.description
             }
-      
+
             var spicy = '';
             var glutenfree = '';
             var vegetarian = '';
-      
+
             if (a.extra.spicy === true) {
-              spicy = `<p class="spicy"><i class="fas fa-pepper-hot"></i></p>`
+              spicy = `<p class="spicy"><i class="fas fa-pepper-hot"></i> spicy</p>`
             }
             if (a.extra.glutenfree === true) {
               glutenfree = `<div class="glutenfree"><p><i class="fas fa-ban"></i>Gluten</p></div>`
             }
             if (a.extra.vegetarian === true) {
-              vegetarian = `<p class="vegetarian"><i class="fas fa-leaf"></i></p>`
+              vegetarian = `<p class="vegetarian"><i class="fas fa-leaf"></i> vegetarian</p>`
             }
-      
+
           return `
           <div class="menu-items">
             <img src ="http://placehold.it/200/200">
@@ -52,9 +52,9 @@ $(document).ready(function(){
           </div>
             `
           }).join("")
-      
+
           $('#appetize').html(appetizersStr)
-      
+
           let entreesStr = data.entrees.map(a => {
             var description;
             if (a.description.length > 40) {
@@ -62,11 +62,11 @@ $(document).ready(function(){
             }else {
               description = a.description
             }
-      
+
             var spicy = '';
             var glutenfree = '';
             var vegetarian = '';
-      
+
             if (a.extra.spicy === true) {
               spicy = `<p class="spicy"><i class="fas fa-pepper-hot"></i></p>`
             }
@@ -76,7 +76,7 @@ $(document).ready(function(){
             if (a.extra.vegetarian === true) {
               vegetarian = `<p class="vegetarian"><i class="fas fa-leaf"></i></p>`
             }
-      
+
           return `
           <div class="menu-items">
             <img src ="http://placehold.it/200/200">
@@ -91,9 +91,9 @@ $(document).ready(function(){
           </div>
             `
           }).join("")
-      
+
           $('#entrees').html(entreesStr)
-      
+
           let dessertsStr = data.desserts.map(a => {
             var description;
             if (a.description.length > 40) {
@@ -101,11 +101,11 @@ $(document).ready(function(){
             }else {
               description = a.description
             }
-      
+
             var spicy = '';
             var glutenfree = '';
             var vegetarian = '';
-      
+
             if (a.extra.spicy === true) {
               spicy = `<p class="spicy"><i class="fas fa-pepper-hot"></i></p>`
             }
@@ -115,7 +115,7 @@ $(document).ready(function(){
             if (a.extra.vegetarian === true) {
               vegetarian = `<p class="vegetarian"><i class="fas fa-leaf"></i></p>`
             }
-      
+
           return `
           <div class="menu-items">
             <img src ="http://placehold.it/200/200">
@@ -130,7 +130,7 @@ $(document).ready(function(){
           </div>
             `
           }).join("")
-      
+
           $('#desserts').html(dessertsStr)
     })
 

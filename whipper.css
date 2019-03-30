@@ -10,6 +10,7 @@ html {
 /* background img */
 body {
   background-image: url("https://i.pinimg.com/originals/42/c8/b3/42c8b3b87fb239f415ff5dd68f7f1af0.jpg");
+  font-family: serif;
 }
 
 
@@ -111,7 +112,7 @@ button {
 
 .home .homeContent {
   width: 400px;
-  height: 800px;
+  height: 1360px;
   border: 1px solid black;
   padding: 15px;
   margin-top: 40px;
@@ -250,4 +251,18 @@ div.menu-items {
 
 .location.bodyContent {
   background-color: rgba(94, 210, 250, 0.9);
+}
+/* content titles */
+.content-title {
+  font-family: "Apple Chancery";
+  font-size: 30px;
+}
+/* content */
+.content {
+  font-size: 20px;
+  text-align: center;
+}
+
+.home.bodyContent.show {
+  overflow: scroll;
 }
