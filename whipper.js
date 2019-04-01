@@ -16,7 +16,12 @@ $(document).ready(function(){
     })
 
     $.get('https://obscure-tundra-54269.herokuapp.com/bar-food').done(function(data) {
+        var i = 0;
         let appetizersStr = data.appetizers.map(a => {
+
+            var menuPic = menuPics.appetizerImages[i];
+            i++;
+
             var description;
             if (a.description.length > 40) {
               description = a.description.substring(0, 40) + '...'
@@ -40,7 +45,7 @@ $(document).ready(function(){
 
           return `
           <div class="menu-items">
-            <img src ="http://placehold.it/200/200">
+            <img src ="${menuPic}">
             <p class="dish-name">${a.name}</p>
             <p class="description"><abbr title="${a.description}">${description}</abbr></p>
             <p class="price">$${a.price}</p>
@@ -55,7 +60,12 @@ $(document).ready(function(){
 
           $('#appetize').html(appetizersStr)
 
+          var i = 0;
           let entreesStr = data.entrees.map(a => {
+
+            var menuPic = menuPics.entreeImages[i];
+            i++;
+
             var description;
             if (a.description.length > 40) {
               description = a.description.substring(0, 40) + '...'
@@ -79,7 +89,7 @@ $(document).ready(function(){
 
           return `
           <div class="menu-items">
-            <img src ="http://placehold.it/200/200">
+            <img src ="${menuPic}">
             <p class="dish-name">${a.name}</p>
             <p class="description"><abbr title="${a.description}">${description}</abbr></p>
             <p class="price">$${a.price}</p>
@@ -94,7 +104,12 @@ $(document).ready(function(){
 
           $('#entrees').html(entreesStr)
 
+          var i = 0;
           let dessertsStr = data.desserts.map(a => {
+
+            var menuPic = menuPics.dessertImages[i];
+            i++;
+
             var description;
             if (a.description.length > 40) {
               description = a.description.substring(0, 40) + '...'
@@ -118,7 +133,7 @@ $(document).ready(function(){
 
           return `
           <div class="menu-items">
-            <img src ="http://placehold.it/200/200">
+            <img src ="${menuPic}">
             <p class="dish-name">${a.name}</p>
             <p class="description"><abbr title="${a.description}">${description}</abbr></p>
             <p class="price">$${a.price}</p>
