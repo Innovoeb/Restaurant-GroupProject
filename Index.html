@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="whipper.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- canvas div -->
+  <div id="canvas">
+
+    <!-- social media links div -->
+    <div class="socialmedia">
+      <a href="https://www.facebook.com/"><i class="fab fa-facebook-f fa-3x"></i></a>
+      <a href="https://twitter.com/"><i class="fab fa-twitter fa-3x"></i></a>
+      <a href="https://www.instagram.com/"><i class="fab fa-instagram fa-3x"></i></a>
+      <a href="https://www.yelp.com/"><i class="fab fa-yelp fa-3x"></i></a>
+    </div>
+
+    <!-- logo div -->
+    <div class="Logo">
+      <h1>The WhipperSnapper</h1>
+      <h4>(Kid's Bar and Restaurant)</h4>
+    </div>
+
+    <!-- navbar div -->
+    <div class="navbar">
+      <button class="homeButton">Home</button>
+      <button class="menuButton">Menu</button>
+      <button class="reservationsButton">Reservations</button>
+      <button class="locationButton">Location</button>
+    </div>
+
+    <!-- kids at bar img -->
+    <div class="logopic">
+    </div>
+
+
+    <!-- body div -->
+    <div class="body">
+
+
+      <!-- home-button content-->
+      <div class="home bodyContent">
+
+        <!-- About us -->
+        <div class="aboutUs homeContent">
+          <h3 class="content-title">About Us</h3>
+          <div class="content">
+            <p>Start them young and let your kids have a night on the town! Bring them down to The WhipperSnapper where we serve the best kiddie cocktails, ice cream floats, and
+          culinary dishes that will please the senses as well as satisfy the appetite. Our service is given under the guise of a neighborhood dive-bar
+            complete with a full seated sized bar and a 30 table dining room. In our house, whippersnappers now have a place where they
+            can socialize with their families and peers while taking in a beverage establishment's atomosphere and enjoying well crafted foods and non-alcoholic drinks. Come see what the fuss is about
+          down at The WhipperSnapper.
+            </p>
+
+            <p>We started with an idea that kids should have a night on the town too. With this, we set out to slightly alter an older food service concept.
+          A place where youngsters can enjoy food & beverage and simultaneiously be social, alot like the old jukebox ice cream parlors of past. We Took
+          this concept, added a sohphisticated menu complete with adult sized and whippersnapper sized dishes, and came up with "The WhipperSnapper".
+            </p>
+
+            <p>We are located at 1112 S Casino Center Blvd, Las Vegas, NV 89104 and we host groups and parties as well as accept reservations. Contact us at
+            (702) 560-5326 for more information. You can also schedule a reservation by filling out and submiting our form in the reservations tab and we will contact you
+            shortly after to confirm. Don't hesitate to bring your whippersnappers in today for some clean fun and
+           we look forward to seeing you soon.
+            </p>
+          </div>
+
+        <div id="hours">
+          <p>Hours:</p>
+          <p>Mondays-Fridays: 12:00pm - 10:00pm</p>
+          <p>Saturday & Sunday: 10:00am - 10:00pm</p>
+        </div>
+
+          <div id="aboutuspic">
+            <img src="https://thenypost.files.wordpress.com/2017/05/kids_dinner.jpg?quality=90&strip=all&w=618&h=410&crop=1">
+          </div>
+
+        </div>
+
+        <!-- Latest News -->
+        <div class="news homeContent">
+          <h3 class="content-title">Latest News</h3>
+          <h6>Sunday Brunch for Younger WhipperSnappers</h6>
+          <div class="content">
+            <p>The WhipperSnapper is now hosting Sunday brunch for younger whippersnappers and their families from 10:00am - 3:00pm. Complete with our
+            beverage service atmosphere, our meal service will include hosted activities for the little ones to encourage them to engage socially with their parents and families.
+             Come and let the whippersnappers enjoy a social lunch.
+            </p>
+
+            <div id="brunch">
+              <p>WhipperSnapper Brunch Includes:</p>
+ 
+                <p>two adult entrees</p>
+                <p>two desserts</p>
+                <p>all you can eat kid entrees</p>
+
+                <p>all beverages free (excluding floats & milkshakes)</p>
+                <p>only $35 for a party of 4</p>
+              </p>
+                <p>Call (702) 560-5326 for more information. We look forward to you and your whippersnapper enjoying your Sundays with us and we will see you then.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Specials -->
+        <div class="special homeContent">
+          <h3 class="content-title">Today's Special</h3>
+          <h6>Chocolate Chip Cookies</h6>
+
+          <div id="cookiepic">
+            <img src="https://www.thechunkychef.com/wp-content/uploads/2016/09/Salted-Chocolate-Chip-Cookies-11-410x270.jpg">
+          </div>
+
+          <div class="content"><p id="cookies">Three soft baked chocolate chip cookies</p></div>
+        </div>
+
+
+      </div>
+
+
+      <!-- menu-button content -->
+      <div class="menu bodyContent">
+        <h3 class="content-title">Appetizers</h3>
+
+        <div id="appetize">
+
+        </div>
+
+        <h3 class="content-title">Entrees</h3>
+
+        <div id="entrees">
+
+        </div>
+
+        <h3 class="content-title">Desserts</h3>
+
+        <div id="desserts">
+
+        </div>
+      </div>
+      <!-- reservation button content -->
+      <div class="reservations bodyContent">
+        <h3 class="content-title">Reservations</h3>
+        <form id="reservationsform">
+          <label for="parentsname">Parent's Name</label><br>
+          <input type="text" name="parentsname" id="parentsname"/><br>
+          <label for="phonenumber">Phone Number</label><br>
+          <input type="tel" name="phonenumber" id="phonenumber"/><br>
+          <label for="numberofchildren">Number of Children</label><br>
+          <select name="numberofchildren">
+            <option value="" selected="selected" disabled>Choose a value</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5+">5+</option>
+          </select><br>
+          <label for="childrensnames">Children's Name(s)</label><br>
+          <input type="text" name=childrensnames id="childrensnames"/><br>
+          <label for="date">Date</label><br>
+          <input type="date" name="date" id="date"><br>
+          <label for="time">Time</label><br>
+          <select name="time">
+            <option value="" selected="selected" disabled>Choose a Time</option>
+            <option value="lunch">Weekday Lunch</option>
+            <option value="dinner">Weekday Dinner</option>
+            <option value="9am">Weekend 9am</option>
+            <option value="10am">Weekend 10am</option>
+            <option value="11am">Weekend 11am</option>
+            <option value="12pm">Weekend 12pm</option>
+            <option value="1pm">Weekend 1pm</option>
+            <option value="2pm">Weekend 2pm</option>
+            <option value="3pm">Weekend 3pm</option>
+            <option value="4pm">Weekend 4pm</option>
+            <option value="5pm">Weekend 5pm</option>
+            <option value="6pm">Weekend 6pm</option>
+            <option value="7pm">Weekend 7pm</option>
+          </select><br>
+          <label for="specialnotes">Special Notes</label><br>
+          <textarea id="specialnotes"></textarea><br>
+          <label for="seating">Seating Preference</label><br>
+          <select name="seating">
+            <option value="" selected="selected" disabled>Choose a Spot</option>
+            <option value="table">Table</option>
+            <option value="bar">Bar</option>
+          </select><br>
+          <button id="reservetable" type="submit">Reserve Table</button>
+        </form>
+      </div>
+      <!-- location button content -->
+      <div class="location bodyContent">
+        <h3 class="content-title">Our Location</h3>
+        <!-- google maps div -->
+        <div id="map">
+        </div>
+        <!-- google maps API -->
+        <script>
+            var map;
+            function initMap() {
+              var myLatLng = {lat: 36.1583864, lng: -115.1525015};
+
+              map = new google.maps.Map(document.getElementById('map'), {
+                center: myLatLng,
+                zoom: 18
+              });
+
+              var marker = new google.maps.Marker({
+                position: myLatLng,
+                map: map,
+                title: 'The WhipperSnapper'
+              });
+            }
+          </script>
+          <div class="content">
+            <p>1112 S Casino Center Blvd, Las Vegas, NV 89104</p>
+            <p>(702) 560-5326</p>
+          </div>
+      </div>
+    </div>
+
+
+    <!-- footer div -->
+    <div class="footer">
+        <div class="menupics">
+            <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2010/12/28/3/FNM_010111-Insert-021_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1371595164608.jpeg">
+            <img src="https://www.cookwithkushi.com/wp-content/uploads/2018/11/IMG_1416_.jpg">
+            <img src="http://carlsbadcravings.com/wp-content/uploads/2014/05/pretzel-bites-4-650x975.jpg">
+            <img src="https://pizzazzerie.com/wp-content/uploads/2015/08/party-food-mini-cheeseburgers-pizzazzerie-6.jpg">
+            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/louisiana-sundae-1513801667.png">
+        </div>
+            <h2 class="try">Bring You and Your WhipperSnappers In to Try Some of Our Delicious Food Today!</h2>
+    </div>
+
+
+  </div>
+
+
+<!-- external JS and googlemaps scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous">
+  </script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1Q5mmnhT2LTrBF_G1_UXabkl64RxPa-Y&callback=initMap"
+    async defer></script>
+
+  <script src="menupics.js"></script>
+  <script src="whipper.js"></script>
+
+</body>
+
+</html>
