@@ -34,13 +34,13 @@ $(document).ready(function(){
             var vegetarian = '';
 
             if (a.extra.spicy === true) {
-              spicy = `<p class="spicy"><i class="fas fa-pepper-hot"></i> spicy</p>`
+              spicy = `<p class="spicy"><i class="fas fa-pepper-hot"></i>Spicy</p>`
             }
             if (a.extra.glutenfree === true) {
-              glutenfree = `<div class="glutenfree"><p><i class="fas fa-ban"></i>Gluten</p></div>`
+              glutenfree = `<div class="glutenfree"><p><i class="fas fa-ban"></i>NoGluten</p></div>`
             }
             if (a.extra.vegetarian === true) {
-              vegetarian = `<p class="vegetarian"><i class="fas fa-leaf"></i> vegetarian</p>`
+              vegetarian = `<p class="vegetarian"><i class="fas fa-leaf"></i>Vegan</p>`
             }
 
           return `
@@ -78,13 +78,13 @@ $(document).ready(function(){
             var vegetarian = '';
 
             if (a.extra.spicy === true) {
-              spicy = `<p class="spicy"><i class="fas fa-pepper-hot"></i></p>`
+              spicy = `<p class="spicy"><i class="fas fa-pepper-hot"></i>Spicy</p>`
             }
             if (a.extra.glutenfree === true) {
-              glutenfree = `<div class="glutenfree"><p><i class="fas fa-ban"></i>Gluten</p></div>`
+              glutenfree = `<div class="glutenfree"><p><i class="fas fa-ban"></i>NoGluten</p></div>`
             }
             if (a.extra.vegetarian === true) {
-              vegetarian = `<p class="vegetarian"><i class="fas fa-leaf"></i></p>`
+              vegetarian = `<p class="vegetarian"><i class="fas fa-leaf"></i>Vegan</p>`
             }
 
           return `
@@ -122,13 +122,13 @@ $(document).ready(function(){
             var vegetarian = '';
 
             if (a.extra.spicy === true) {
-              spicy = `<p class="spicy"><i class="fas fa-pepper-hot"></i></p>`
+              spicy = `<p class="spicy"><i class="fas fa-pepper-hot"></i>Spicy</p>`
             }
             if (a.extra.glutenfree === true) {
-              glutenfree = `<div class="glutenfree"><p><i class="fas fa-ban"></i>Gluten</p></div>`
+              glutenfree = `<div class="glutenfree"><p><i class="fas fa-ban"></i>NoGluten</p></div>`
             }
             if (a.extra.vegetarian === true) {
-              vegetarian = `<p class="vegetarian"><i class="fas fa-leaf"></i></p>`
+              vegetarian = `<p class="vegetarian"><i class="fas fa-leaf"></i>Vegan</p>`
             }
 
           return `
