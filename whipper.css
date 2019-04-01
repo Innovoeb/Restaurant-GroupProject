@@ -174,7 +174,9 @@ button {
 /* footer text div */
 .try {
   text-align: center;
-  font-size: 50px;
+ B
+  font-size: 45px;
+
   color: black;
   background-color: rgb(144, 248, 23);
   width: 1700px;
@@ -227,6 +229,11 @@ abbr {
 #map {
   width: 400px;
   height: 400px;
+ B
+  position: relative;
+  overflow: hidden;
+  left: 546px;
+
 }
 
 .home.bodyContent {
@@ -247,6 +254,10 @@ div.menu-items {
 
 .reservations.bodyContent {
   background-color: rgba(230, 111, 165, 0.9);
+ B
+  display: flex;
+  justify-content: center;
+
 }
 
 .location.bodyContent {
@@ -266,3 +277,47 @@ div.menu-items {
 .home.bodyContent.show {
   overflow: scroll;
 }
+ B
+
+.reservations.bodyContent h3 {
+  font-size: 35px;
+  font-family: "Apple Chancery";
+  padding-right: 100px;
+  text-decoration: underline;
+}
+
+#reservationsform {
+  border: 10px solid white;
+  width: 700px;
+  height: 700px;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+#reservationsform input {
+  width: 200px;
+  height: 30px;
+  line-height: 1.5em;
+}
+
+#reservationsform label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 1.5em;
+}
+
+#reservationsform select {
+  width: 200px;
+  height: 30px;
+  line-height: 1.5em;
+}
+
+#reservationsform textarea {
+  width: 300px;
+  height: 100px;
+}
+
+#reservetable {
+  line-height: 1.5em;
+}
+
