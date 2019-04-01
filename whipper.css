@@ -174,9 +174,7 @@ button {
 /* footer text div */
 .try {
   text-align: center;
- B
   font-size: 45px;
-
   color: black;
   background-color: rgb(144, 248, 23);
   width: 1700px;
@@ -292,6 +290,9 @@ div.menu-items {
   height: 700px;
   text-align: center;
   line-height: 1.5em;
+  position: relative;
+  left: 430px;
+  top: 100px;
 }
 
 #reservationsform input {
@@ -320,4 +321,3 @@ div.menu-items {
 #reservetable {
   line-height: 1.5em;
 }
-
